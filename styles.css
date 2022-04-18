@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(224, 230, 235);
+    margin-left: 50px;
+    max-width: 400px
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+ol { 
+    padding-left: 1em; 
+    margin-top: 24px;
+}
+
+.listItem {
+    margin-bottom: 15px;
+}
+
+.listItemsDiv {
+    display: flex;
+    flex: 1;
+    flex-direction: 'row';
+    justify-content: space-between;
+}
+
+.actionBtn {
+    color: black;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.editBtn{
+    margin-right: 10px;
+}
+
+.AddItem{
+    display: flex;
+    flex: 1;
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+}
+
